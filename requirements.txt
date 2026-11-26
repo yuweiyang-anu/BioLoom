@@ -1,0 +1,9 @@
+-r src/requirements-training.txt
+numpy
+Pillow
+pyarrow
+datasets
+scikit-learn
+pydicom
+openpyxl
+google-genai

@@ -1,0 +1,17 @@
+{
+  "embed_dim": 768,
+  "vision_cfg": {
+    "image_size": 224,
+    "timm_model_name": "vit_large_patch14_dinov2.lvd142m",
+    "timm_model_pretrained": true,
+    "timm_pool": "token",
+    "timm_proj": "linear",
+    "timm_drop": 0.0
+  },
+  "text_cfg": {
+    "hf_model_name": "thomas-sounack/BioClinical-ModernBERT-base",
+    "hf_tokenizer_name": "thomas-sounack/BioClinical-ModernBERT-base",
+    "hf_pooler_type": "mean_pooler",
+    "context_length": 512
+  }
+}
